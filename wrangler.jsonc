@@ -1,0 +1,19 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "zeusforgedata",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-05-10",
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "ZeusForge",
+			"database_id": "ef826a4b-004f-46f0-8f93-2e099381e6d4"
+		}
+	],
+	"vars": {
+		"AUTHORIZATION_KEY": ""
+	}
+}
